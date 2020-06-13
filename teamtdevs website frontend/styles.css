@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-height: 100vh;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+.navbar {
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 0px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	box-sizing: border-box;
+}
+.links {
+	display: flex;
+	list-style: none;
+}
+.links li {
+	margin-right: 24px;
+}
+.links li a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: -0.5px;
+}
+.links li a:hover,
+.links li a.active {
+	color: #dbdbdb;
+}
+.sections {
+	padding-top: 5px;
+}
+section {
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+}
+section:nth-child(even) {
+	background: #949494;
+	color: #000;
+}
+.jumbotron {
+	background-repeat: no-repeat;
+	color: #fff;
+	background-position: center;	
+	background-image: url(https://miro.medium.com/max/1838/1*JUSbO0xkXPf2jtYLMSAZ8w.jpeg);
+	height: 100%;
+	padding-top: 20%;
+}
+.lead {
+	color: white;
+}
+
+.card {
+  position: static;
+  
+}
+.btn:hover {
+	background-color: #2e2e2e;
+	color: #fff;
+}
